@@ -11,6 +11,37 @@
 
 <body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-blue-600 selection:text-white">
 
+    <!-- HEADER / NAVBAR CON LOGO -->
+    <header class="sticky top-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            
+            <!-- ESPACIO PARA LOGO DE LA EMPRESA -->
+            <a href="#" class="flex items-center space-x-3 group">
+                <!-- Reemplaza src con la ruta de tu logo (svg o png) -->
+                <img src="./assets/logo.svg" alt="MotionTech Logo" class="h-10 w-auto object-contain" onerror="this.style.display='none'; this.nextElementSibling.classList.remove('hidden');" />
+                
+                <!-- Placeholder / Isotipo de respaldo cuando no hay imagen de logo disponible -->
+                <div class="hidden w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center font-black text-white text-xl shadow-lg shadow-blue-600/30 group-hover:bg-blue-500 transition-colors">
+                    M
+                </div>
+
+                <div class="flex flex-col">
+                    <span class="text-xl font-bold tracking-tight text-white group-hover:text-blue-400 transition-colors">MotionTech</span>
+                    <span class="text-[10px] text-slate-400 tracking-wider uppercase font-semibold">Industrial Solutions</span>
+                </div>
+            </a>
+
+            <!-- NAVEGACIÓN -->
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-300">
+                <a href="#servicios" class="hover:text-white transition-colors">Servicios</a>
+                <a href="#demostracion" class="hover:text-white transition-colors">Automatización</a>
+                <a href="#proceso" class="hover:text-white transition-colors">Proceso</a>
+                <a href="#formulario" class="px-4 py-2 border border-blue-500/30 rounded-lg text-blue-400 hover:bg-blue-500/10 transition-colors">Contacto</a>
+            </nav>
+
+        </div>
+    </header>
+
     <!-- HERO -->
     <section class="relative py-20 lg:py-32 overflow-hidden border-b border-slate-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -122,7 +153,7 @@
     </section>
 
     <!-- SECCIÓN DE VIDEO: DEMO DE AUTOMATIZACIÓN DE FLUJOS -->
-    <section class="py-20 border-b border-slate-800 bg-slate-950">
+    <section id="demostracion" class="py-20 border-b border-slate-800 bg-slate-950">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
 
@@ -168,7 +199,7 @@
     </section>
 
     <!-- PROCESO -->
-    <section class="py-20 border-b border-slate-800">
+    <section id="proceso" class="py-20 border-b border-slate-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
             <h2 class="text-3xl sm:text-4xl font-bold text-white mb-12">Cómo funciona</h2>
