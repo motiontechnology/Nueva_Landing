@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CDN de Tailwind CSS v3 -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>MotionTech | Control Eléctrico, Telemetría e Inteligencia Industrial</title>
+</head>
+
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-blue-600 selection:text-white">
+
+    <!-- HERO -->
+    <section class="relative py-20 lg:py-32 overflow-hidden border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+
+                <!-- LADO IZQUIERDO: Mensaje Principal -->
+                <div class="flex flex-col items-start space-y-6">
+                    <div class="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-blue-500/10 text-blue-400 border border-blue-500/20">
+                        Control Eléctrico • Telemetría e IIoT • Analítica de Datos
+                    </div>
+
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-tight">
+                        Automatiza tu operación e integra los datos de tu planta
+                    </h1>
+
+                    <p class="text-lg text-slate-400 max-w-2xl">
+                        Suministramos equipos de control para motores, conectamos la supervisión en tiempo real y construimos pipelines de datos para prevenir paros no programados.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+                        <a href="#formulario" class="inline-flex justify-center items-center px-6 py-3.5 border border-transparent text-base font-medium rounded-xl text-white bg-blue-600 hover:bg-blue-500 transition-colors shadow-lg shadow-blue-600/25">
+                            Solicitar diagnóstico
+                        </a>
+
+                        <a href="#servicios" class="inline-flex justify-center items-center px-6 py-3.5 border border-slate-700 text-base font-medium rounded-xl text-slate-300 bg-slate-900 hover:bg-slate-800 transition-colors">
+                            Ver servicios
+                        </a>
+                    </div>
+                </div>
+
+                <!-- LADO DERECHO: 3 Pilares con Imagen Ilustrativa -->
+                <div class="space-y-4">
+                    <!-- Preview Visual de Dashboard/Telemetría -->
+                    <div class="relative rounded-2xl overflow-hidden border border-slate-800 bg-slate-900 group">
+                        <img src="./assets/dashboard-preview.jpg" alt="Dashboard de Monitoreo Industrial" class="w-full h-48 object-cover opacity-80 group-hover:opacity-100 transition-opacity" onerror="this.src='https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop'" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent"></div>
+                        <div class="absolute bottom-4 left-4 right-4">
+                            <span class="text-xs font-semibold text-blue-400 uppercase tracking-wider">Supervisión en Vivo</span>
+                            <p class="text-sm font-medium text-white">Visualización remota de parámetros y consumos</p>
+                        </div>
+                    </div>
+
+                    <div class="p-6 bg-slate-900/60 border border-slate-800 rounded-2xl hover:border-slate-700 transition-colors">
+                        <h3 class="text-xl font-bold text-white mb-2">Suministro y Control de Motores</h3>
+                        <p class="text-slate-400 text-sm">
+                            Venta, dimensionamiento y puesta en marcha de variadores de velocidad y arrancadores suaves para optimizar consumo y proteger tus activos.
+                        </p>
+                    </div>
+
+                    <div class="p-6 bg-slate-900/60 border border-slate-800 rounded-2xl hover:border-slate-700 transition-colors">
+                        <h3 class="text-xl font-bold text-white mb-2">Pipelines de Datos e Inteligencia</h3>
+                        <p class="text-slate-400 text-sm">
+                            Transformación y análisis del historial operativo para identificar patrones, optimizar procesos y planificar mantenimientos preventivos.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios" class="py-20 border-b border-slate-800 bg-slate-900/30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="max-w-3xl mb-12">
+                <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">Servicios</h2>
+                <p class="text-lg text-slate-400">
+                    Soluciones integrales enfocadas en la integración de equipos de control, supervisión en vivo y arquitectura de datos.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+                <div class="p-6 bg-slate-900 border border-slate-800 rounded-2xl flex flex-col space-y-4">
+                    <div class="w-10 h-10 rounded-lg bg-blue-600/20 text-blue-400 flex items-center justify-center font-bold">01</div>
+                    <h3 class="text-xl font-bold text-white">Suministro de Control</h3>
+                    <p class="text-slate-400 text-sm">
+                        Dimensionamiento e integración de variadores de velocidad y arrancadores suaves.
+                    </p>
+                </div>
+
+                <div class="p-6 bg-slate-900 border border-slate-800 rounded-2xl flex flex-col space-y-4">
+                    <div class="w-10 h-10 rounded-lg bg-blue-600/20 text-blue-400 flex items-center justify-center font-bold">02</div>
+                    <h3 class="text-xl font-bold text-white">Telemetría y Dashboards Web</h3>
+                    <p class="text-slate-400 text-sm">
+                        Visualización centralizada en tiempo real para monitorear estados operativos y recibir alertas instantáneas.
+                    </p>
+                </div>
+
+                <div class="p-6 bg-slate-900 border border-slate-800 rounded-2xl flex flex-col space-y-4">
+                    <div class="w-10 h-10 rounded-lg bg-blue-600/20 text-blue-400 flex items-center justify-center font-bold">03</div>
+                    <h3 class="text-xl font-bold text-white">Pipelines de Datos (ETL)</h3>
+                    <p class="text-slate-400 text-sm">
+                        Procesamiento y almacenamiento automático del historial operativo en bases de datos.
+                    </p>
+                </div>
+
+                <div class="p-6 bg-slate-900 border border-slate-800 rounded-2xl flex flex-col space-y-4">
+                    <div class="w-10 h-10 rounded-lg bg-blue-600/20 text-blue-400 flex items-center justify-center font-bold">04</div>
+                    <h3 class="text-xl font-bold text-white">Analítica & Power BI</h3>
+                    <p class="text-slate-400 text-sm">
+                        Reportabilidad ejecutiva e identificación de patrones para mantenimiento preventivo.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE VIDEO: DEMO DE AUTOMATIZACIÓN DE FLUJOS -->
+    <section class="py-20 border-b border-slate-800 bg-slate-950">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+
+                <div class="lg:col-span-5 space-y-6">
+                    <div class="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                        Automatización de Flujos
+                    </div>
+                    <h2 class="text-3xl sm:text-4xl font-bold text-white">
+                        Conectividad y Automatización de Procesos
+                    </h2>
+                    <p class="text-slate-400 leading-relaxed">
+                        Mira cómo orquestamos y automatizamos los flujos de datos entre tus formularios, sistemas de mensajería (WhatsApp/Correo) y bases de datos sin intervención manual.
+                    </p>
+                    <ul class="space-y-3 text-slate-300 text-sm">
+                        <li class="flex items-center space-x-3">
+                            <span class="w-2 h-2 bg-blue-500 rounded-full"></span>
+                            <span>Procesamiento de leads y notificaciones automáticas</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <span class="w-2 h-2 bg-blue-500 rounded-full"></span>
+                            <span>Integración directa con CRMs y bases de datos</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <span class="w-2 h-2 bg-blue-500 rounded-full"></span>
+                            <span>Ejecución en tiempo real ante eventos críticos</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- REPRODUCTOR DE VIDEO -->
+                <div class="lg:col-span-7">
+                    <div class="relative rounded-2xl overflow-hidden border border-slate-800 bg-slate-900 shadow-2xl">
+                        <!-- Opciones de reproducción: HTML5 Video o iframe (Youtube/Vimeo) -->
+                        <video controls poster="./assets/video-thumbnail.jpg" class="w-full aspect-video object-cover">
+                            <source src="./assets/n8n-demo.mp4" type="video/mp4" />
+                            Tu navegador no soporta reproducción de video.
+                        </video>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PROCESO -->
+    <section class="py-20 border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <h2 class="text-3xl sm:text-4xl font-bold text-white mb-12">Cómo funciona</h2>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                <div class="flex flex-col space-y-3">
+                    <span class="text-4xl font-extrabold text-blue-500">01</span>
+                    <h4 class="text-lg font-bold text-white">Diagnóstico & Control</h4>
+                    <p class="text-slate-300 text-sm">
+                        Evaluamos la carga de tus motores para integrar el equipo de arranque adecuado.
+                    </p>
+                </div>
+
+                <div class="flex flex-col space-y-3">
+                    <span class="text-4xl font-extrabold text-blue-500">02</span>
+                    <h4 class="text-lg font-bold text-white">Telemetría en Vivo</h4>
+                    <p class="text-slate-300 text-sm">
+                        Conectamos los equipos a un panel web para visualización de variables clave y notificaciones en tiempo real.
+                    </p>
+                </div>
+
+                <div class="flex flex-col space-y-3">
+                    <span class="text-4xl font-extrabold text-blue-500">03</span>
+                    <h4 class="text-lg font-bold text-white">Estructuración de Datos</h4>
+                    <p class="text-slate-300 text-sm">
+                        Diseñamos flujos ETL para procesar y consolidar la información histórica de operación.
+                    </p>
+                </div>
+
+                <div class="flex flex-col space-y-3">
+                    <span class="text-4xl font-extrabold text-blue-500">04</span>
+                    <h4 class="text-lg font-bold text-white">Inteligencia & BI</h4>
+                    <p class="text-slate-300 text-sm">
+                        Generamos dashboards interactivos para identificar anomalías operativas y prevenir fallas.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FORMULARIO -->
+    <section id="formulario" class="py-20 border-b border-slate-800 bg-slate-900/30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+
+                <div class="lg:col-span-5 space-y-4">
+                    <h2 class="text-3xl sm:text-4xl font-bold text-white">Solicita información</h2>
+
+                    <p class="text-slate-400">
+                        Completa el formulario y nuestro sistema clasificará automáticamente tu solicitud.
+                    </p>
+                </div>
+
+                <form id="leadForm" class="lg:col-span-7 bg-slate-900 border border-slate-800 p-8 rounded-2xl space-y-6">
+
+                    <div class="space-y-2">
+                        <label class="block text-sm font-medium text-slate-300">Nombre</label>
+                        <input type="text" name="nombre" required class="w-full px-4 py-3 bg-slate-950 border border-slate-800 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all" />
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="space-y-2">
+                            <label class="block text-sm font-medium text-slate-300">Empresa</label>
+                            <input type="text" name="empresa" required class="w-full px-4 py-3 bg-slate-950 border border-slate-800 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all" />
+                        </div>
+
+                        <div class="space-y-2">
+                            <label class="block text-sm font-medium text-slate-300">Correo</label>
+                            <input type="email" name="correo" required class="w-full px-4 py-3 bg-slate-950 border border-slate-800 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all" />
+                        </div>
+                    </div>
+
+                    <div class="space-y-2">
+                        <label class="block text-sm font-medium text-slate-300">Servicio</label>
+                        <select name="servicio" class="w-full px-4 py-3 bg-slate-950 border border-slate-800 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all">
+                            <option>Equipos de arranque (Variadores / Arrancadores suaves)</option>
+                            <option>Telemetría & Monitoreo Web en Vivo</option>
+                            <option>Pipelines de Datos (ETL) e Integración</option>
+                            <option>Dashboards en Power BI y Analítica</option>
+                        </select>
+                    </div>
+
+                    <div class="space-y-2">
+                        <label class="block text-sm font-medium text-slate-300">Descripción</label>
+                        <textarea rows="5" name="descripcion" placeholder="Escribe los detalles de tu requerimiento o equipos a monitorear..." class="w-full px-4 py-3 bg-slate-950 border border-slate-800 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"></textarea>
+                    </div>
+
+                    <button class="w-full sm:w-auto px-6 py-3.5 border border-transparent text-base font-medium rounded-xl text-white bg-blue-600 hover:bg-blue-500 transition-colors shadow-lg shadow-blue-600/25 cursor-pointer" type="submit">
+                        Enviar solicitud
+                    </button>
+
+                    <div class="hidden p-4 rounded-lg bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-sm font-medium" id="successMessage">
+                        Solicitud enviada correctamente.
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-20 bg-slate-950">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
+
+            <h2 class="text-3xl sm:text-4xl font-bold text-white leading-tight">
+                Automatiza tu operación e integra la analítica en tu planta
+            </h2>
+
+            <p class="text-slate-400 text-lg">
+                Desde la selección del equipo de control adecuado hasta la implementación de analítica preventiva.
+            </p>
+
+            <div class="pt-4">
+                <a href="#formulario" class="inline-flex justify-center items-center px-8 py-4 border border-transparent text-base font-medium rounded-xl text-white bg-blue-600 hover:bg-blue-500 transition-colors shadow-lg shadow-blue-600/25">
+                    Solicitar información
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

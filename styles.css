@@ -1,0 +1,23 @@
+/*
+  styles.css
+  Tailwind CSS procesa casi todo directo en el HTML.
+  Puedes usar este archivo para animaciones personalizadas o fuentes.
+*/
+
+/* Ejemplo: Personalizar la barra de desplazamiento (Scrollbar) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #222222;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00d5ff;
+}
